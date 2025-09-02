@@ -18,7 +18,7 @@ header{
     background-image: url(/images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #000000;
+    color: #fff;
 }
 
 .container{
@@ -492,6 +492,11 @@ header .text_block{
 }
 
 @media (max-width: 1200px) {
+    .page3, .page2, .page4, .page6{
+        height: max-content;
+        padding-bottom: 50px;
+    }
+
     .page2 > div > div{
         display: block;
         margin: 0 auto;
@@ -509,6 +514,42 @@ header .text_block{
     .page2 form{
         margin: 0 auto;
     }
+
+    .page4 .per_container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .page4 .per_container .per{
+        display: flex;
+        justify-content: center;
+    }
+
+    .app > img{
+        display: none;
+    }
+    .app .text_block{
+        text-align: center;
+    }
+
+    .app{
+        justify-content: center;
+    }
+
+    .app .text_block p{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .page6 .client_con{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .page6 .client_con > div{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -521,6 +562,20 @@ header .text_block{
     }
 
     .page2 .text_block span, .page2 .text_block h2{
+        width: 90%;
+    }
+
+    .tariffs_block{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .tariffs_block > div{
+        margin-top: 150px;
+    }
+
+    .page4 .per_container .per p{
         width: 90%;
     }
 }
@@ -541,6 +596,19 @@ header .text_block{
     .text_block span{
         font-size: 40px;
     }
+
+    .page2 form{
+        width: 90%;
+    }
+
+    .page2 form input{
+        width: 90%;
+    }
+
+    .page2 form button{
+        width: 80%;
+    }
+
 }
 
 
@@ -553,5 +621,37 @@ header .text_block{
     .text_block span{
         font-size: 30px;
     }
+
+    .tariffs_block img{
+        transform: translateY(-140%);
+    }
+
+    .page6 h1{
+        font-size: 40px;
+    }
+    .page6 h1{
+        font-size: 38px;
+    }
 }
 
+@media (max-width: 405px) {
+    .tariffs_block img{
+        transform: translateY(-165%);
+    }
+
+    .page6 h1{
+        font-size: 32px;
+    }
+    .page6 h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 350px) {
+    .page6 h1{
+        font-size: 26px;
+    }
+    .page6 h1{
+        font-size: 24px;
+    }
+}
