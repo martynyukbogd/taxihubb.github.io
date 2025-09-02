@@ -11,7 +11,7 @@ a {
 
 body {
     font-family: "Source Sans 3", sans-serif;
-    color: #000; /* Весь текст чорний */
+    color: #000;
 }
 
 header {
@@ -19,8 +19,8 @@ header {
     background-image: url(/images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #000; /* Переписано з білого на чорний */
-    position: fixed; /* Хедер закріплено */
+    color: #000;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -87,7 +87,7 @@ header .text_block {
     height: 100vh;
     background-color: #FFC300;
     padding-top: 120px;
-    margin-top: 100vh; /* Щоб не перекривалось фіксованим хедером */
+    margin-top: 100vh;
 }
 .page2 > div > div{
     display: flex;
@@ -661,4 +661,5 @@ header .text_block {
     }
 
 }
+
 
