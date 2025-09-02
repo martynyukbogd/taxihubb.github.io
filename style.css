@@ -45,7 +45,7 @@ header{
 }
 
 .hub{
-    color: #FFE100;
+    color: #000000;
 }
 
 .header__top .logo{
@@ -654,4 +654,5 @@ header .text_block{
     .page6 h1{
         font-size: 24px;
     }
+
 }
