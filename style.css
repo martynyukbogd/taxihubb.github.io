@@ -18,7 +18,7 @@ header{
     background-image: url(/images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;
+    color: #000000;
 }
 
 .container{
@@ -554,3 +554,4 @@ header .text_block{
         font-size: 30px;
     }
 }
+
